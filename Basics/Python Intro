@@ -9,7 +9,6 @@ print(myAge/3)
 myAge = myAge + 1
 print(myAge)
 
-# Challenge 
 # 1) Create a variable called "restaurantBill" and set its value to 36.17
 # 2) Create a variable called "serviceCharge" and set its value to 0.125
 # 3) Print out the amount of tip
@@ -66,17 +65,17 @@ data['High_Score'] = 100
 
 print(data)
 
-# Challenge: Overwrite values in rows for High_Score to equal average score + 100
+# Overwrite values in rows for High_Score to equal average score + 100
 data['High_Score'] = data['High_Score'] + data['Avg_Math_Test_Score']
 print(data)
 
-# Challenge: Square the values stored inside High_Score
+# Square the values stored inside High_Score
 data['High_Score'] = data['High_Score'] ** 2
 print(data)
 
 type(onlyMathScores)
 
-# Challenge: Create a list called columnList. Put 'LSD_ppm' and 'Avg_Math_Test_Score' inside.
+# Create a list called columnList. Put 'LSD_ppm' and 'Avg_Math_Test_Score' inside.
 # columnList = ['LSD_ppm', 'Avg_Math_Test_Score']
 cleanData = data[['LSD_ppm', 'Avg_Math_Test_Score']]
 print(cleanData)
@@ -87,7 +86,7 @@ y = data[['Avg_Math_Test_Score']]
 
 type(y)
 
-# Challenge: 1) Create a variable called X
+# 1) Create a variable called X
 # Set X equal to the values of LSD_ppm
 # Make sure X is a dataframe
 # 2) print the value of X
@@ -99,7 +98,7 @@ type(X)
 del data['Test_Subject']
 print(data)
 
-# Challenge: Delete High_Score column from data
+# Delete High_Score column from data
 del data['High_Score']
 print(data)
 
@@ -109,7 +108,7 @@ type(hitchhikersGuide)
 
 hitchhikersGuide.theAnswer
 
-# Challenge: 1) import math module 2) print out value of pi 3) print out value of e
+# 1) import math module 2) print out value of pi 3) print out value of e
 import math
 math.pi
 
@@ -208,7 +207,7 @@ predicted_score = regr.predict(LSD)
 
 %matplotlib inline
 
-# Challenge: add title 'Arithmetic vs LSD-25'
+# Add title 'Arithmetic vs LSD-25'
 # Add label on X Axis 'Tissue LSD ppm'
 # Add label on Y Axis 'Performance Score'
 plt.title('Arithmetic vs LSD-25', fontsize=17)
