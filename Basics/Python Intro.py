@@ -16,29 +16,29 @@ restaurantBill = 36.17
 serviceCharge = 0.125
 print(restaurantBill*serviceCharge)
 
-type(33)
+print(type(33))
 
-type(33.6)
+print(type(33.6))
 
-type('Philipp')
+print(type('Philipp'))
 
-type(myAge)
+print(type(myAge))
 
-type(restaurantBill)
+print(type(restaurantBill))
 
 myName = 'Philipp'
-type(myName)
+print(type(myName))
 
 firstPrime = 1
 secondPrime = 2
 thirdPrime = 3
 
 primeNumbers = [3, 7, 61, 29, 199]
-type(primeNumbers)
+print(type(primeNumbers))
 
 coolPeople = ['Jay Z', 'Ghandi', 'me']
 primeAndPeople = ['King Arthur', 17, 11, 'Jennifer Lopez']
-type(primeAndPeople)
+print(type(primeAndPeople))
 
 primeNumbers[2]
 
@@ -49,7 +49,7 @@ import pandas as pd
 data = pd.read_csv('lsd_math_score_data.csv')
 print(data)
 
-type(data)
+print(type(data))
 
 onlyMathScores = data['Avg_Math_Test_Score']
 print(onlyMathScores)
@@ -72,18 +72,18 @@ print(data)
 data['High_Score'] = data['High_Score'] ** 2
 print(data)
 
-type(onlyMathScores)
+print(type(onlyMathScores))
 
 # Create a list called columnList. Put 'LSD_ppm' and 'Avg_Math_Test_Score' inside.
 # columnList = ['LSD_ppm', 'Avg_Math_Test_Score']
 cleanData = data[['LSD_ppm', 'Avg_Math_Test_Score']]
 print(cleanData)
 
-type(cleanData)
+print(type(cleanData))
 
 y = data[['Avg_Math_Test_Score']]
 
-type(y)
+print(type(y))
 
 # 1) Create a variable called X
 # Set X equal to the values of LSD_ppm
@@ -92,7 +92,7 @@ type(y)
 # 3) show the type of X
 X = data[['LSD_ppm']]
 print(X)
-type(X)
+print(type(X))
 
 del data['Test_Subject']
 print(data)
@@ -103,7 +103,7 @@ print(data)
 
 import life as hitchhikersGuide
 
-type(hitchhikersGuide)
+print(type(hitchhikersGuide))
 
 hitchhikersGuide.theAnswer
 
@@ -167,10 +167,10 @@ import this
 hitchhikersGuide.quote_marvin()
 
 myAge = 'Two Hundred'
-type(myAge)
+print(type(myAge))
 
 myAge = 20.53
-type(myAge)
+print(type(myAge))
 
 result = hitchhikersGuide.square_root(63.14)
 print(result)
