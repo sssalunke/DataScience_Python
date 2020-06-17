@@ -130,7 +130,6 @@ cars.count()
 
 cars.describe()
 
-
 # cleaning dataset
 
 # filter
