@@ -137,9 +137,9 @@ cars = cars.rename(columns={'model1':'model'})
 
 cars.qsec = cars.qsec.fillna(cars.qsec.mean())
 
-cars = cars.drop(columns=['S.No'])
+cars = cars.drop(columns=['vs'])
 
-df = cars[['mpg','cyl','disp','hp','drat','wt','qsec','vs','am','gear','carb']].corr()
+df = cars[['mpg','cyl','disp','hp','drat','wt','qsec','am','gear','carb']].corr()
 df
 
 cars.mpg = cars.mpg.astype(float)
